@@ -2,7 +2,7 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
-    background-color: #f4f4f4;
+    background-color: #FFFFFF;
 }
 
 ul {
@@ -39,7 +39,14 @@ h1 {
 
 h2 {
     font-size:  36px;
-    line-height: 1.1;
+}
+
+.titlesecond {
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
 h3 {
@@ -48,10 +55,19 @@ h3 {
     line-height: 1.2;
 }
 
+.titlethree {
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
 p {
     font-weight: 400;
-    font-size: 16px;
     line-height: 1.5;
+}
+
+.text {
+    letter-spacing: 0.02em;
+    font-size: 16px;  
 }
 
 address {
@@ -67,11 +83,11 @@ address {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
 }
 
 .logo-part {
-    color: #4d5ae5;
+    color:  #2e2f42;
 }
 
 .nav-link {
@@ -99,18 +115,41 @@ address {
 
 /* section one */
 
+/*.maintitle {
+
+}*/
+
 .solutions {
     background: #2e2f42;
 }
+
+/* section two */
+
+.advanttitle {
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+
 
 /* section three */
 .team {
     background: #f4f4fd;
 }
 
+
+
+/*.teamlist {
+
+}*/
+
+.teamlist-item {
+    background-color: #FFFFFF;
+}
+
 /* footer */
 
-footer {
+.footer {
     background: #2e2f42;
 }
 
